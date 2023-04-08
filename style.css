@@ -1,0 +1,60 @@
+/* Set background color and font styles for the whole page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("pngtree-ecommerce-banner-planning-segmentation-selection-image_1375247.jpg");
+    background-size: cover;
+  }
+  
+  /* Center the form on the page */
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Add spacing between form elements */
+  form label, form select, form input {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the input fields */
+  form input, form select {
+    border: 3px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  form input[type="number"] {
+    max-width: 100px;
+  }
+  
+  /* Style the button */
+  form button {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  form button:hover {
+    background-color: #00688B;
+  }
+  
+  /* Style the select element */
+  form select {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the labels */
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
