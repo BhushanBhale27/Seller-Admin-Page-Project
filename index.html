@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <form>
+            <label>Selling Price :</label>
+            <input type="number" id="sPrise" placeholder="0000" required>
+            <label>Product Name :</label>
+            <input type="text" id="productName" required>
+            <label>Select Category :</label>
+            <select id="select">
+                <option>Mens Wear</option>
+                <option>Electronics</option>
+                <option>Fashion</option>
+                <option>Toys</option>
+            </select>
+            <button id="btn">Add Product</button>
+        </form>
+    </div>
+    <!-- <ul id="addItems">
+
+    </ul> -->
+    <h2>Mens Wear</h2>
+    <ul id="mWear"></ul>
+
+    <h2>Electronics</h2>
+    <ul id="electron"></ul>
+
+    <h2>Fashion</h2>
+    <ul id="fashion"></ul>
+
+    <h2>Toys</h2>
+    <ul id="toys"></ul>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js"></script>
+
+</html>
